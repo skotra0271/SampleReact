@@ -4,9 +4,9 @@
   "description": "Learning react with redux and webpack",
   "main": "index.js",
   "scripts": {
-    "prestart":"babel-node tools/startMessage",
-    "start":"npm-run-all --parallel open:src lint:watch",
-    "open:src":"babel-node tools/server.js",
+    "prestart": "babel-node tools/startMessage",
+    "start": "npm-run-all --parallel open:src lint:watch",
+    "open:src": "babel-node tools/server.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch"
   },
